@@ -14,8 +14,9 @@ from keras.optimizers import SGD # type: ignore
 from keras.preprocessing.sequence import pad_sequences # type: ignore
 
 # Download NLTK data
-nltk.download('punkt')
-nltk.download('wordnet')
+# nltk.download('punkt')
+# nltk.download('wordnet')
+# nltk.download('punkt_tab')
 
 lemmatizer = WordNetLemmatizer()
 
